@@ -1,0 +1,38 @@
+
+#flex-container{
+    /* We first create a flex layout content */
+    display: flex; 
+    /* same as
+    * flex-direction: row;
+    * flex-wrap: nowrap;
+    */
+    flex-flow: row nowrap;
+    /* Now is how we distribute the remaining space */
+    justify-content: space-evenly;
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+
+}
+
+.flex-item{
+    margin: 0;
+    width: 50px;
+    height: 20px;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+
+.circle-box1{
+    height: 4px;
+    width: 4px;
+    margin: 5px;
+    background:gray;
+    border-radius: 50%;
+    box-shadow: 6px 0 gray, 12px 0 gray, 
+                0 6px gray, 6px 6px gray, 12px 6px gray,
+                0 12px gray, 6px 12px gray, 12px 12px gray;
+}
+
+.login-input{
+    
+}
