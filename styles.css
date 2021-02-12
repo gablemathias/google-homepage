@@ -7,8 +7,8 @@
     */
     flex-flow: row wrap;
     /* Now is how we distribute the remaining space */
-    justify-content: flex-end;
-    margin: 10px 20px;
+    justify-content:right;
+    margin: 10px;
     list-style: none;
 
 }
@@ -40,6 +40,7 @@
     padding: 10px 30px 10px 30px;
     border: 1px solid transparent;
     border-radius: 5px;
+    margin-right: 20px;
 }
 
 #logo-box{
@@ -51,10 +52,25 @@
 #logo{
     background: url('https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png') no-repeat 0 0;
     background-position: center;
-    background-position-y: 35%;
+    background-position-y: 80%;
 }
 
 html, body, #logo{
     width: 100%;
-    height: 100%;
+    height: 70%;
+}
+
+#search-box{
+    display: inline-block;
+    width: 40em;
+    height: 45px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 16px;
+    /*background-image: url('searchicon.png');*/
+    margin: 10px 50% 10px 31%;
+    padding: 12px 20px 12px 40px;
+
 }
