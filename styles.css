@@ -1,4 +1,5 @@
 
+
 #flex-container{
     /* We first create a flex layout content */
     display: flex; 
@@ -6,26 +7,27 @@
     * flex-direction: row;
     * flex-wrap: nowrap;
     */
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     /* Now is how we distribute the remaining space */
-    justify-content: space-evenly;
-    margin: 0 10px;
-    padding: 0;
+    justify-content: flex-end;
+    margin: 10px 20px;
     list-style: none;
+    
 
 }
 
 .flex-item{
-    margin: 0;
-    width: 50px;
-    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
     font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+
 }
 
 .circle-box1{
     height: 4px;
     width: 4px;
-    margin: 5px;
+    margin: 12px 40px 12px 10px;
     background:gray;
     border-radius: 50%;
     box-shadow: 6px 0 gray, 12px 0 gray, 
@@ -34,5 +36,11 @@
 }
 
 .login-input{
-    
+    font-size: 14px;
+    background-color: #2b7de9;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
 }
