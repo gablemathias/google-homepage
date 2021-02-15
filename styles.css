@@ -1,5 +1,5 @@
 body{
-    background-color: blanchedalmond;
+    text-align: center;
 }
 
 #flex-container{
@@ -55,10 +55,6 @@ body{
 }
 
 #search-box{
-
-}
-
-#search-box{
     width: 40em;
     height: 45px;
     border: 1px solid #ccc;
@@ -66,8 +62,9 @@ body{
     box-sizing: border-box;
     border-radius: 50px;
     font-size: 16px;
-    margin: 10px 50% 10px 31%;
-    /*padding: 12px 20px 12px 40px;
     background-image: url('searchicon.png')*/;
+    margin-top: 1%;
+    padding-left: 50px;
+    outline: none;
 
 }
