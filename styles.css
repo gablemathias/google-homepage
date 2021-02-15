@@ -11,6 +11,12 @@ h1{
     color: #444444 ;
 }
 
+a{
+    text-decoration: none;
+    color: #949797;
+    
+}
+
 #flex-container{
     /* We first create a flex layout content */
     display: flex; 
@@ -96,4 +102,35 @@ h1{
     font-size: 12pt;
     font-family: arial, sans-serif;
     margin: 5px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #f1f1f1;
+    color:  #949797;
+    text-align: center;
+    width: 100%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.grid-container-1{
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-self: start;
+    padding: 0;
+}
+
+.grid-container-2{
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
 }
