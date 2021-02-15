@@ -1,5 +1,14 @@
 body{
     text-align: center;
+    font-family: arial, sans-serif;
+
+}
+
+h1{
+    font-size: 8pt;
+    font-family: arial, sans-serif;
+    margin-top: 40px;
+    color: #444444 ;
 }
 
 #flex-container{
@@ -54,7 +63,7 @@ body{
     width: auto;
 }
 
-#search-box{
+.search-box{
     width: 40em;
     height: 45px;
     border: 1px solid #ccc;
@@ -67,4 +76,24 @@ body{
     padding-left: 50px;
     outline: none;
 
+}
+
+.button-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 3%;    
+    text-decoration: none;
+
+}
+
+.search-button{
+    color:    #444444  ;
+    background-color:  #f1f1f1;
+    border-style: none;
+    border-width: 20px;
+    padding: 10px;
+    font-size: 12pt;
+    font-family: arial, sans-serif;
+    margin: 5px;
 }
